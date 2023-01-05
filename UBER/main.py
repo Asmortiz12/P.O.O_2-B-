@@ -38,9 +38,14 @@ if __name__ == "__main__":
     print(vars(uberX1))
     print(vars(uberX1.driver))
 
+    uberXl1 = UberXL("QPD-789", "Chevrolet SAID", "blaco", 2019, Driver(3, "PEPE JOSE", "Masculino", 98555456456, 36, "Licencia4567"), "4")
+    print(vars(uberX1))
+    print(vars(uberX1.driver))
+
     uberConfort1 = UberConfort("PCV-1115", "Hiunday-Tucson", "Negro", 2019, Driver(5, "Jose Alban", "Masculino", 99999999, 25, "Licencia0005"), True, 5, "Cuero")
     print(vars(uberConfort1))
     print(vars(uberConfort1.driver))
+
     
     pago001 = PaymentTransfer(2, 5.0, "13-12-2022", "11111111", "Pïchincha")
     print(vars(pago001))
